@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상세검색</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bookDetailSearch.css">
+</head>
+<body>
+    <header id="header">
+        <section class="h1">
+            <h1 class="logo"><a href="../index.html">웅진책방</a></h1>
+            <div class="h1_m">
+                <div class="searchAll">
+                    <input type="text" placeholder="#에그박사 #러닝리소스 #웅진 베이비 오감튼튼 #어스본 #산리오">
+                    <p class="search">
+                        <a href="bookDetailSearch.html">상세검색</a>
+                    </p>
+                </div>
+                <div class="utill">
+                    <a href="" class="login">로그인</a>
+                    <a href="" class="join">회원가입</a>
+                    <a href="" class="mypage">마이페이지</a>
+                    <a href="" class="cart">장바구니</a>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="">7~13세</a>
+            </div>
+        </section>
+        <section class="h2">
+            <div class="h2_in">
+                <div class="categoryL">
+                    <div class="total"><a href="">전체메뉴</a></div>
+                    <ul>
+                        <li class="L_li01">
+                            <a href="">
+                                0~3세
+                            </a>
+                        </li>
+                        <li class="L_li02">
+                            <a href="">
+                                4~6세
+                            </a>
+                        </li>
+                        <li class="L_li03 on">
+                            <a href="">
+                                7~13세
+                            </a>
+                        </li>
+                        <li class="L_li04">
+                            <a href="">
+                                토이&#183;교구
+                            </a>
+                        </li>
+                        <li class="L_li05">
+                            <a href="">
+                                해외도서
+                            </a>
+                        </li>
+                        <li class="L_li06">
+                            <a href="">
+                                라이프
+                            </a>
+                        </li>
+                        <li class="L_li07">
+                            <a href="">
+                                엄마의서재
+                            </a>
+                        </li>
+                        <li class="L_li08">
+                            <a href="">
+                                웅진주니어
+                            </a>
+                        </li>
+                        <li class="L_li09">
+                            <a href="">
+                                전집
+                            </a>
+                        </li>
+                        <li class="L_li10">
+                            <a href="">
+                                국내도서
+                            </a>
+                        </li>
+                        <li class="L_li11 point">
+                            <a href="">
+                                베베북클럽
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="categoryR">
+                    <ul>
+                        <li class="R_li01">
+                            <a href="">베스트</a>
+                        </li>
+                        <li class="R_li02">
+                            <a href="">리뷰</a>
+                        </li>
+                        <li class="R_li03">
+                            <a href="">쿠폰북</a>
+                        </li>
+                        <li class="R_li04">
+                            <a href="">기획전</a>
+                        </li>
+                        <li class="R_li05">
+                            <a href="">이벤트</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main id="main">
+        <div class="m_in">
+            <section class="close_btn">
+                <a href="../index.html">닫힘</a>
+            </section>
+            <section class="detail">
+                <h2 class="d_title">상세검색</h2>
+                <div class="search_Box">
+                    <form action="">
+                        <label for="b_name">도서명</label>
+                        <input type="text" name="b_name" id="b_name">
+                    </form>
+                    <form action="">
+                        <label for="b_author" class="b_author_txt">저자</label>
+                        <input type="text" name="b_author" id="b_author">
+                    </form>
+                    <form action="">
+                        <label for="b_publish">출판사</label>
+                        <input type="text" name="b_publish" id="b_publish">
+                    </form>
+                </div>
+            </section>
+            <section class="d_check">
+                <div class="check01">
+                    <h2 class="c_title">카테고리</h2>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="" id="check01"  value="0~3세"> 0&#126;3세
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check02" value="4~6세"> 4&#126;6세
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check03" value="7~13세"> 7&#126;13세
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check04"> 토이·교구
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check05"> 해외도서
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check06"> 라이프
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check07"> 엄마의서재
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id="check08"> 웅진주니어
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 전집
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 국내도서
+                        </li>
+                    </ul>
+                </div>
+                <div class="check02">
+                    <h2 class="c_title">발행언어</h2>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="" id=""> 한국어
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 영어
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 일본어
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 중국어
+                        </li>
+                    </ul>
+                </div>
+                <div class="check03">
+                    <h2 class="c_title">구성</h2>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="" id=""> 낱권
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 전집
+                        </li>
+                    </ul>
+                </div>
+                <div class="check04">
+                    <h2 class="c_title">학습영역</h2>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="" id=""> 국어
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 수학
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 영어
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 사회
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 역사
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 과학
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 한자/한문
+                        </li>
+                        <li>
+                            <input type="checkbox" name="" id=""> 논술/작문
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="check_option">
+                <h2 class="c_title">선택한 조건</h2>
+                <ul></ul>
+            </section>
+            <div class="d_btn">
+                <a href="" class="d_btnReset">초기화</a>
+                <a href="" class="d_btnSubmit">검색</a>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <section class="footer1">
+            <div class="f1_in">
+                <div class="f1_in1">
+                    <ul class="f1Li01">
+                        <li class="f1Li01_01">
+                            <a href="">회사소개</a>
+                        </li>
+                        <li>
+                            <a href="">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="" class="f_point">개인정보처리방침</a>
+                        </li>
+                    </ul>
+                    <ul class="f1Li02">
+                        <li class="f1Li02_01">
+                            <a href="">고객센터</a>
+                        </li>
+                        <li>
+                            <a href="">대량구매/기관구매 문의</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <a href="">인스타그램</a>
+                </div>
+            </div>
+        </section>
+        <section class="footer2">
+            <div class="f2_in">
+                <div class="f2L">
+                    <div class="f2L_top">
+                        <div class="f2L_01"><p>(주)웅진씽크빅 <span class="bar">|</span> 대표자명 : 이재진</div>
+                        <div class="f2L_02"><span class="bar">|</span> 사업자등록번호 : 141-81-09131 <span class="f_btn"><a>사업자정보확인</a></span></div>
+                        <div class="f2L_03"><span class="bar">|</span> 통신판매업신고 : 경기파주-1045</p></div>
+                    </div>
+                    <div class="f2L_bottom">
+                        <div class="f2L_04"><p>경기도 파주시 회동길 20 (우 : 10881)</p></div>
+                        <div class="f2L_05"><span class="bar">|</span> 고객센터 : 1670-3780 (월~금 09:00 ~ 18:00, 토/일 공휴일 휴무) <span class="bar">|</span> 개인정보보호책임자 : 경영지원실 이수종 실장</div>
+                    </div>
+                    <p class="copyright">COPYRIGHT © WOONGJIN THINKBIG. ALL RIGHTS RESERVED</p>
+                </div>
+                <div class="f2R">
+                    <a href="">정보보호<span>관리체계 인증</span></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="../js/bookDtailSearch.js"></script>
+</body>
+</html>
